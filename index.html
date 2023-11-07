@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>architecture</title>
+    <link rel="stylesheet" href="stayl.css">
+</head>
+<body>
+    <div class="bige">
+        <div class="me">
+            <div class="floor"><div class="vu"></div><img src="Animals/00.jpg" alt=""><div class="left"></div><div class="right"></div></div>
+            <div class="floor"><div class="vu"></div><img src="Animals/01.jpg" alt=""><div class="left"></div><div class="right"></div></div>
+            <div class="floor"><div class="vu"></div><img src="Animals/02.jpg" alt=""><div class="left"></div><div class="right"></div></div>
+            <div class="floor"><div class="vu"></div><img src="Animals/10.jpg" alt=""><div class="left"></div><div class="right"></div></div>
+        </div>
+        <div class="you">
+            <div class="flo"></div>
+            <div class="flo"></div>
+            <div class="flo"></div>
+        </div>
+        <div class="me">
+            <div class="floor"><div class="vu"></div><img src="Animals/11.jpg" alt=""><div class="left"></div><div class="right"></div></div>
+            <div class="floor"><div class="vu"></div><img src="Animals/12.jpg" alt=""><div class="left"></div><div class="right"></div></div>
+            <div class="floor"><div class="vu"></div><img src="Animals/20.jpg" alt=""><div class="left"></div><div class="right"></div></div>
+            <div class="floor"><div class="vu"></div><img src="Animals/21.jpg" alt=""><div class="left"></div><div class="right"></div></div>
+        </div>
+        <div class="you">
+            <div class="flo"></div>
+            <div class="flo"></div>
+            <div class="flo"></div>
+        </div>
+        <div class="me">
+            <div class="floor">
+                <img src="Animals/01.jpg" alt="">
+                <div class="left"></div>
+                <div class="right"></div>
+            </div>
+            <div class="floor"><div class="vu"></div><img src="Animals/10.jpg" alt=""><div class="left"></div><div class="right"></div></div>
+            <div class="floor"><div class="vu"></div><img src="Animals/00.jpg" alt=""><div class="left"></div><div class="right"></div></div>
+            <div class="floor"><div class="vu"></div><img src="Animals/02.jpg" alt=""><div class="left"></div><div class="right"></div></div>
+        </div>
+        <div class="you">
+            <div class="flo"></div>
+            <div class="flo"></div>
+            <div class="flo"></div>
+        </div>
+        <div class="me">
+            <div class="floor"><div class="vu"></div><img src="Animals/12.jpg" alt=""><div class="left"></div><div class="right"></div></div>
+            <div class="floor"><div class="vu"></div><img src="Animals/21.jpg" alt=""><div class="left"></div><div class="right"></div></div>
+            <div class="floor"><div class="vu"></div><img src="Animals/11.jpg" alt=""><div class="left"></div><div class="right"></div></div>
+            <div class="floor"><div class="vu"></div><img src="Animals/20.jpg" alt=""><div class="left"></div><div class="right"></div></div>
+        </div>
+        <div class="port">
+            <div class="port1">
+                <div class="kht"></div>
+                <div class="kh"></div>
+                <div class="kht1"></div>
+                <div class="kh1"></div>
+            </div>
+        </div>
+    </div>
+    <div class="je">
+        <div class="tu"></div>
+        <div class="tu"></div>
+        <div class="tu"></div>
+        <div class="tu"></div>
+        <div class="tu"></div>
+        <div class="tu"></div>
+        <div class="tu"></div>
+        <div class="tu"></div>
+        <div class="tu"></div>
+        <div class="tu"></div>
+    </div>
+    <script>
+        let windo = document.querySelectorAll(".floor");
+            windo.forEach((element) => {
+                element.addEventListener("click", (e) => { 
+                        e.target.parentElement.classList.toggle("active");
+                            });
+            });
+        </script>
+
+</body>
+</html>
